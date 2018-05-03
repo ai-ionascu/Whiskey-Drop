@@ -1,0 +1,196 @@
+body{
+font-family: 'Raleway', sans-serif;
+}
+
+/* Navigation */
+
+.nav--container{
+margin-bottom: 0;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1;
+background-color: rgba(0, 0, 0, .25);
+padding: 0;
+}
+
+.navbar .navbar-brand{
+font-weight: bold;  
+}
+
+.navbar .navbar-nav a{
+font-weight: bold;  
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+  color: #fff;
+}
+
+/* Alert */
+
+.alert-container{
+border-radius: 0; 
+height:30px;
+margin:0;
+padding: 0;
+flex-wrap: nowrap;
+background-color: #f2c73f;
+border-color: #f2c73f;
+}
+
+/* Callout */
+
+.callout-container {
+  
+    min-height: 100vh;
+    background: url('../img/whiskey-jar.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.screen-overlay{
+  background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}  
+
+.callout{
+    background-color: transparent;
+}
+
+.jumbotron{
+margin-top: 5%;  
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.breakline{
+height: 5px;
+width: 50px;
+background-color: #d00;
+margin: 30px auto;  
+}
+
+.breakline--black{
+height: 5px;
+width: 50px;
+background-color: black;
+margin: 30px auto;  
+}
+
+.breakline--white{
+height: 5px;
+width: 50px;
+background-color: #fff;
+margin: 30px auto;  
+}
+
+.callout small{
+font-style: italic;
+color: #f2f2f2;
+font-size: 10px;
+}
+
+.callout .lead{
+color: #cfc4c4;
+margin-bottom: 50px;
+}
+
+/* Buttons */
+
+.btn--sup{
+border-radius: 20px;
+font-weight: bold;
+width: 150px;
+margin-bottom: 30px;
+}
+
+.btn--red{
+background-color: #d91616;
+color: white;    
+}
+
+.btn--sup:hover {
+text-decoration: none;
+background-color: #8f1010;
+color: #cec9c9;
+}
+
+.btn--sin{
+border-radius: 20px;
+background-color: #d91616;
+border: none;
+color: white;
+font-weight: normal !important;
+}
+
+.btn--sin:hover {
+text-decoration: none;
+background-color: #8f1010;
+color: #cec9c9;
+}
+
+.btn--rmore{
+border-radius: 20px;
+background-color:white ;
+border: none;
+color: #d91616;
+font-weight: normal !important;
+}
+
+.btn--rmore:hover {
+text-decoration: none;
+background-color: lightgrey;
+color: #8f1010;
+}
+
+
+
+.quotes-container{
+    
+}
+
+.features-container{
+background-color:#d91616;
+color: #fff;
+}
+.feature{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+h3>i{
+  font-size: 3rem;
+}
+
+.heading{
+background-color:#d91616;
+color: #fff;
+}
+
+.table--body{
+background-color:#fff;
+color: #d91616;
+}
+
+.brands-chart-container{
+    
+}
